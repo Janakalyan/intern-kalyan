@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+
+/* heading */
+
+header{
+    
+    background-image:url(img/img9.jpg);
+    background-size:cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(31, 31, 25, 0.856);
+    padding: 2% 10% 1% 10%;
+}
+
+.navmenu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* button style */
+.b1{
+    background: transparent;
+    border: none;
+    border-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.b2,.b1:hover{
+    background: greenyellow;
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+/* combinated selectors */
+
+.plan,.team_description,.company-n{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.navbody,.plan,.team_description,.company-member{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.planning,.service1{
+   
+    border-style:solid;
+    border-top: 0;
+    border-bottom: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+
+
+.logo,.topic{
+    display: flex;
+}
+
+.logo ,.topic h3{
+    padding-left: 2%;
+}
+
+
+
+
+
+
+.navbody {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding-bottom: 10%;
+   
+}
+
+.heading1{
+    font-size: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+
+.p1{
+    margin-top: 0;
+    padding-top: 0;
+    font-family: cursive;
+    
+}
+
+
+
+
+
+
+
+
+
+.b2:hover{
+    background: rgb(180, 165, 165);
+}
+
+.b3{
+    background: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.b3:hover{
+    background: rgba(71, 68, 68, 0.993);
+}
+
+.b4{
+    background: rgb(139, 243, 90);
+    border: none;
+    border-radius: 10px;
+    padding: 4%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.b4:hover{
+    background: rgba(75, 133, 94, 0.993);
+}
+
+.b5{
+    background: rgb(90, 83, 83);
+    border: none;
+    border-radius: 10px;
+    padding: 4%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.b5:hover{
+    background: rgb(32, 31, 31);
+}
+
+
+
+
+
+/* planning section */
+
+.plan{
+    background-color: white;
+}
+
+
+
+
+/* team_description */
+
+.team_description{
+    background-color: black;
+    color: white;
+}
+.team_description h3{
+  
+  font-weight: bolder;
+  font-size:x-large;
+}
+.team_description li{
+      padding-bottom: 5%;
+      list-style: none;
+}
+
+.team_description  li::before{
+    
+    
+    content:"\25C9";
+    color: chartreuse;
+}
+.inp{
+    background:rgb(75, 70, 70);
+    border: none;
+    margin: 3%;
+    width: 300px;
+    
+}
+.contact .b4{
+   margin-left: 55%;
+}
+
+
+
+
+/* company-memeber section  */
+.company-member{
+    background-color: rgb(68, 62, 62);
+    color: white;
+    font-family:sans-serif;
+    font-size: small;
+}
+
+.company-member h4{
+  
+  font-weight: bolder;
+  font-size: larger;
+  padding-left: 8%;
+  
+}
+
+.company-m{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-right: 20%;
+}
+
+.company-member li:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+   
+}
